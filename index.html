@@ -32,7 +32,7 @@
                     <a href="#forms" class="nav-link active">Form</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link active">Contact Us</a>
+                    <a href="#contact" class="nav-link active">Contact Us</a>
                   </li>
                   
                 </ul>
@@ -44,6 +44,33 @@
             </div>
           </nav>
     </header>
+
+    <div id="blogs" class = "blog-section">
+        <h1 style="padding: 15px;">BLOGS</h1>
+        <button onclick="btnClickHandeler()">Click Me</button>
+
+        <table class="table table-light table-striped">
+            <thead >
+                <tr>
+                    <th scope="col">First</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">City</th>
+                </tr>
+            </thead>
+            <tbody id="test">
+    
+            </tbody>
+        </table>
+        <div>
+            <tr id="container">
+                <td>Fetch Data</td>
+            </tr>
+
+        </div>
+
+    </div>
     <div id="forms" class="form-section" ><!--style="background-color: rgba(227, 172, 233, 0.763);"-->
         <h1 style="padding: 2vh;">Forms</h1>
         <form name = "myform" onsubmit="return validateForm()">
@@ -146,7 +173,7 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
-    <div class = "bg-primary bg-4 footer-div">
+    <div class = "bg-primary bg-4 footer-div" id="contact">
         <div class = "footer-text">
             <div class="footer-h">
                 <h1>Contact Us</h1> 
