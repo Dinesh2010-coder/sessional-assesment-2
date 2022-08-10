@@ -44,5 +44,107 @@
             </div>
           </nav>
     </header>
+    <div id="forms" class="form-section" ><!--style="background-color: rgba(227, 172, 233, 0.763);"-->
+        <h1 style="padding: 2vh;">Forms</h1>
+        <form name = "myform" onsubmit="return validateForm()">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" name = "fname" class="form-control" id="name">
+            </div>
+            
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" name = "uname" class="form-control" id="username">
+            </div>
+            
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name = "email" class="form-control" id="email">
+            </div>
+            
+            <div class="mb-3 address">
+                <h5>Address : </h5>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="street" class="form-label">Street</label>
+                            <input type="text" name = "street" class="form-control" id="street">
+                        </td>
+                        <td>    
+                            <label for="suite" class="form-label">Suite</label>
+                            <input type="text" name = "suite" class="form-control" id="suite">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <label for="city" class="form-label">City</label>
+                            <input type="text" name = "city" class="form-control" id="city">
+                        </td>
+                        <td>    
+                            <label for="zipcode" class="form-label">Zip Code</label>
+                            <input type="text" name = "zipcode" class="form-control" id="zipcode">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <br>
+                            <h6>Geo : </h6> 
+                            <label for="lat" class="form-label">Lat</label>
+                            <input type="number" name = "lat" class="form-control" id="lat" step=".0001">
+                        </td>
+                        <td>    
+                            <br>
+                            <br>
+                            <label for="lng" class="form-label">Long</label>
+                            <input type="number" name = "long" class="form-control" id="lng" step=".0001">
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="mb-3">
+                <label for="clientphone" class="form-label">Phone</label>
+                <input type="phone" name = "phone" class="form-control" id="clientphone">
+            </div>
+
+            <div class="mb-3">
+                <label for="website" class="form-label">Website</label>
+                <input type="url" name = "website" class="form-control" id="website">
+            </div>
+
+            <div class="mb-3 address">
+                <h5>Company : </h5>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" name = "cname" class="form-control" id="cname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>    
+                                <label for="catchPhrase" class="form-label">Catch Phrase</label>
+                                <input type="text" name = "catchPhrase" class="form-control" id="catchPhrase">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>    
+                                <label for="bs" class="form-label">BS</label>
+                                <input type="text" name = "bs" class="form-control" id="bs">
+                            </td>
+                        </tr>
+                    </table>
+            </div>
+              
+            <div class="mb-3 " id = "form-check">
+              <input type="checkbox" name = "check" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1"> I here by declare that all information provided by me is correct</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
