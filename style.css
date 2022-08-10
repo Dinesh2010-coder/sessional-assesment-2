@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+}
+.bg-4{
+    color: aliceblue;
+}
+.footer-h{
+     padding-top: 15px; 
+     padding-right: 15px;
+     padding-left: 15px;
+}
+
+.details{
+     padding-top: 17px;
+     padding-right: 20px;
+}
+
+.qualification-details{
+    padding-top: 17px;
+}
+
+.footer-text{
+    display: flex;
+    /* width: 100%; */
+}
+
+.footer-div{
+    height: 250px;
+    width: 100%;
+}
+
+.blog-section{
+    padding: 15px 15px 15px 15px;
+}
+.form-section{
+    padding: 15px 15px 15px 15px;
+}
+
+.form-section form div{
+    /* padding: 10px 0; */
+    display: flex;
+    flex-direction: column ;
+}
+
+.form-section form div{
+    width: 75vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    /* padding: 3px; */
+}
+
+.address input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    /* padding: 3px; */
+}
+
+.btn-primary{
+    font-size: 5vh;
+    /* padding: 4vh 6vh; */
+    margin: 5vh 0;
+    width: 15vh;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 2vh;
+    margin: 0.5vh 0.5vh;
+}
